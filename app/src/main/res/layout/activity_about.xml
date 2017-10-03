@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.antiraggingapp.about">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app is developed by :-"
+        android:id="@+id/textView2" />
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/anmol"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/imageView" />
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/ayushi"
+        android:src="@drawable/ayushi"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="95dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Anmol Gupta"
+    android:layout_alignTop="@+id/imageView"
+    android:layout_toRightOf="@+id/imageView"
+    android:layout_toEndOf="@+id/imageView"
+    android:layout_marginLeft="37dp"
+    android:layout_marginStart="37dp"
+    android:layout_marginTop="23dp"
+    android:id="@+id/textView3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayushi Jain"
+        android:layout_marginTop="28dp"
+        android:layout_alignTop="@+id/ayushi"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+</RelativeLayout>

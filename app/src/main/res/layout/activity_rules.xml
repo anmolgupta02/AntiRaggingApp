@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indian Penal Code:-"
+
+        android:id="@+id/ipc"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:id="@+id/ipcdes"
+        android:textColor="#000"
+        android:layout_below="@id/ipc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/IPC"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UGC Regulations:-"
+        android:textStyle="bold"
+        android:id="@+id/ugcbanner"
+        android:textSize="25sp"
+        android:layout_below="@+id/ipcdes"
+     />
+    <TextView
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/ugcbanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#0b0b0b"
+        android:text="@string/UGC"
+        android:id="@+id/ugcdes"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ugcdes"
+        android:text="Some Other Rules"
+        android:id="@+id/others"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_below="@+id/others"/>
+
+</RelativeLayout>
+</ScrollView>

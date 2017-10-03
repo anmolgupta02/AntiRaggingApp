@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.antiraggingapp.call">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Welcome to anti ragging App. In this App you can send an emergency message to your desired conatact.\n\n *By Clicking On SOS You need to enter a contact No. and a emergency message with your location will be send to that contact. Make sure that Your location service is on.\n\n *The Second option is used for reporting any kind of ragging activity you are observing around your college campus. The app can be linked to any campus database and hence every possible entry could be stored in that.\n \n *The Thrid option tell us about the Variouus rules and regulations that is present in our Country regarding ragging.\n \n *The last activity tells us the various supporting organisations that are helping in the fight against Ragging.In these links to there websites are there which can be directly accesed. " />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You for Using Our App.!!"
+        android:textColor="#382b9b"
+        android:textSize="25dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
